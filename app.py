@@ -270,7 +270,7 @@ def run_scan(ex,count,etf,ttf):
     return found,warnings,stats,btc
 
 # -------------------- User interface --------------------
-init()
+init_state()
 with st.sidebar:
     st.subheader("⚙️ Scanner Options")
     exchange_label=st.selectbox("Exchange",["KuCoin","Binance"],index=0)
